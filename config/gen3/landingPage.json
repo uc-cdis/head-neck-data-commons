@@ -10,10 +10,10 @@
       "splitarea": {
         "left": [
           {
-            "text": "The <strong>Head and Neck Cancer Bank</strong> is a single web interface which allows visitors to <strong>discover, access and analyze data</strong>. Making data easily findable enables secondary, cross-study analyses, promotes dissemination of research and accelerates new discoveries."
+            "text": "The <strong>Head and Neck Cancer Digital Data Commons</strong> is a unified web platform that connects rich clinical and research data to a long-standing physical head and neck cancer tissue biobank at the University of Chicago. The biobank includes multiple specimen types collected continuously since 1989, with detailed clinical annotations across diverse patient populations and disease states. By tightly coupling a mature biobank with a modern, AI-ready data infrastructure, the commons provides a secure, queryable environment that links physical biospecimens to their corresponding clinical, molecular, and imaging data."
           },
           {
-            "text": "The Gen3 platform consists of open-source software services that support the emergence of healthy data ecosystems by enabling the interoperation and creation of cloud-based data resources, including data commons and analysis workspaces. Gen3 aims to accelerate and democratize the process of scientific discovery by making it easy to manage, analyze, harmonize, and share large and complex datasets in the cloud."
+            "text": "The platform is being designed to support advanced search, conversational data access, and integrated analytics. Investigators will be able to search and filter patients and specimens by diagnosis, treatment, outcomes, biomarkers, and other attributes, or 'chat with the commons' using natural-language questions to obtain structured, explainable results. Approved users will also be able to deploy AI and machine learning models—including foundation models and embeddings—directly within the environment, maintaining explicit references between model-derived representations and the underlying physical biospecimens. This architecture enables reproducible, specimen-linked AI research and accelerates discovery in head and neck cancer."
           },
           {
             "link": {
@@ -38,8 +38,7 @@
     {
       "cardsArea": {
         "title": "",
-        "cards": [
-        ]
+        "cards": []
       }
     },
     {
