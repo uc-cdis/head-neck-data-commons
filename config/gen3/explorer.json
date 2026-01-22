@@ -1,7 +1,16 @@
 [
   {
     "tabTitle": "Datasets",
-    "charts": {},
+    "charts": {
+        "data_type": {
+        "chartType": "fullPie",
+        "title": "Data Type"
+      },
+      "data_category": {
+        "chartType": "fullPie",
+        "title": "Data Category"
+      }
+    },
     "filters": {
       "tabs": [
         {
@@ -65,7 +74,16 @@
   },
   {
     "tabTitle": "Subjects",
-    "charts": {},
+    "charts": {
+      "race": {
+        "chartType": "fullPie",
+        "title": "race"
+      },
+      "Sex_Desc": {
+        "chartType": "fullPie",
+        "title": "Sex"
+      }
+    },
     "filters": {
       "tabs": [
         {
@@ -154,7 +172,7 @@
         "treatment.Date_of_First_Surgery",
         "treatment.First_Course_Chemotherapy_Date",
         "treatment.First_Course_Chemotherapy_Hosp_Desc",
-        "treatment.First_Course_Dx_Staging_Proc_Hosp_Desc",
+        // "treatment.First_Course_Dx_Staging_Proc_Hosp_Desc",
         "treatment.First_Course_Immunotherapy_Date",
         "treatment.First_Course_Immunotherapy_Hosp_Desc",
         "treatment.Rx_Code_Desc",
@@ -274,7 +292,16 @@
   },
   {
     "tabTitle": "Files",
-    "charts": {},
+    "charts": {
+      "????": {
+        "chartType": "fullPie",
+        "title": "????"
+      },
+      "???": {
+        "chartType": "fullPie",
+        "title": "????"
+      }
+    },
     "filters": {
       "tabs": [
         {
