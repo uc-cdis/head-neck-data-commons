@@ -416,7 +416,7 @@
     "loginForDownload": true,
     "guppyConfig": {
       "dataType": "sample",
-      "nodeCountTitle": "Samples",
+      "nodeCountTitle": "Sample",
       "fileCountField": "data_file_count",
       "fieldMapping": [
         {
