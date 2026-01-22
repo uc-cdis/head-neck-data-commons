@@ -273,6 +273,174 @@
     "loginForDownload": true
   },
   {
+    "tabTitle": "Samples",
+    "charts": {},
+    "filters": {
+      "tabs": [
+        {
+          "title": "Samples",
+          "searchFields": [
+            "submitter_id"
+          ],
+          "fields": [
+            "project_id",
+            "protocol_number",
+            "procedure_date",
+            "sample_number",
+            "status",
+            "sample_type",
+            "body_fluid_code",
+            "sample_volume",
+            "sample_year",
+            "dna_concentration",
+            "dna_260_280",
+            "dna_od_260"
+          ]
+        },
+        {
+          "title": "Portions",
+          "fields": [
+            "portion.creation_datetime",
+            "portion.is_ffpe",
+            "portion.portion_number",
+            "portion.weight"
+          ]
+        },
+        {
+          "title": "Pathology Reports",
+          "fields": [
+            "pathology_report.accession_num",
+            "pathology_report.adm_date",
+            "pathology_report.disc_date",
+            "pathology_report.enc_date",
+            "pathology_report.HPV",
+            "pathology_report.lab_code",
+            "pathology_report.lab_desc",
+            "pathology_report.P16",
+            "pathology_report.path_note",
+            "pathology_report.path_value",
+            "pathology_report.proc_code",
+            "pathology_report.proc_desc",
+            "pathology_report.order_dttm",
+            "pathology_report.Order_proc_id",
+            "pathology_report.reference_unit",
+            "pathology_report.result_dttm",
+            "pathology_report.result_flag",
+            "pathology_report.result_in_range_yn"
+          ]
+        }
+      ]
+    },
+    "table": {
+      "enabled": true,
+      "fields": [
+        "submitter_id",
+        "project_id",
+        "protocol_number",
+        "procedure_date",
+        "sample_number",
+        "status",
+        "sample_type",
+        "body_fluid_code",
+        "sample_volume",
+        "sample_year",
+        "dna_concentration",
+        "dna_260_280",
+        "dna_od_260",
+        "portion.creation_datetime",
+        "portion.is_ffpe",
+        "portion.portion_number",
+        "portion.weight",
+        "pathology_report.accession_num",
+        "pathology_report.adm_date",
+        "pathology_report.disc_date",
+        "pathology_report.enc_date",
+        "pathology_report.HPV",
+        "pathology_report.lab_code",
+        "pathology_report.lab_desc",
+        "pathology_report.P16",
+        "pathology_report.path_note",
+        "pathology_report.path_value",
+        "pathology_report.proc_code",
+        "pathology_report.proc_desc",
+        "pathology_report.order_dttm",
+        "pathology_report.Order_proc_id",
+        "pathology_report.reference_unit",
+        "pathology_report.result_dttm",
+        "pathology_report.result_flag",
+        "pathology_report.result_in_range_yn"
+      ]
+    },
+    "dropdowns": {
+      "download-table": {
+        "title": "Download Table"
+      }
+    },
+    "buttons": [
+      {
+        "enabled": true,
+        "type": "data-json",
+        "title": "JSON",
+        "dropdownId": "download-table",
+        "leftIcon": "datafile",
+        "rightIcon": "download",
+        "fileName": "samples_table.json"
+      },
+      {
+        "enabled": true,
+        "type": "data-tsv",
+        "title": "TSV",
+        "dropdownId": "download-table",
+        "leftIcon": "datafile",
+        "rightIcon": "download",
+        "fileName": "samples_table.tsv"
+      },
+      {
+        "enabled": true,
+        "type": "data-csv",
+        "title": "CSV",
+        "dropdownId": "download-table",
+        "leftIcon": "datafile",
+        "rightIcon": "download",
+        "fileName": "samples_table.csv"
+      },
+      {
+        "enabled": true,
+        "type": "manifest",
+        "title": "Download File Manifest for Samples",
+        "leftIcon": "datafile",
+        "rightIcon": "download",
+        "fileName": "samples_file_manifest.json"
+      }
+    ],
+    "loginForDownload": true,
+    "guppyConfig": {
+      "dataType": "sample",
+      "nodeCountTitle": "Samples",
+      "fileCountField": "data_file_count",
+      "fieldMapping": [
+        {
+          "field": "project_id",
+          "name": "Project ID"
+        },
+        {
+          "field": "submitter_id",
+          "name": "Sample ID"
+        }
+      ],
+      "manifestMapping": {
+        "resourceIndexType": "data_file",
+        "resourceIdField": "object_id",
+        "referenceIdFieldInResourceIndex": "_sample_id",
+        "referenceIdFieldInDataIndex": "_sample_id"
+      },
+      "accessibleFieldCheckList": [
+        "project_id"
+      ],
+      "accessibleValidationField": "project_id"
+    }
+  },
+  {
     "tabTitle": "Files",
     "charts": {},
     "filters": {
