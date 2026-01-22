@@ -401,12 +401,35 @@
         {
           "title": "File Properties",
           "fields": [
+            "submitter_id",
             "file_name",
             "object_id",
             "source_node",
             "data_format",
             "data_category",
-            "data_type"
+            "data_type",
+            "experimental_strategy"
+          ]
+        },
+        {
+          "title": "Imaging Properties",
+          "fields": [
+            "acquisition_type",
+            "exposure_modulation_type",
+            "image_data_modification_method",
+            "image_data_modification_name",
+            "image_data_modified",
+            "imaging_date",
+            "lossy_image_compression",
+            "magnification",
+            "manufacturer",
+            "manufacturer_model_name",
+            "modality",
+            "number_of_instances",
+            "patient_position",
+            "series_description",
+            "series_uid",
+            "stain_type"
           ]
         }
       ]
@@ -420,8 +443,25 @@
         "data_format",
         "data_category",
         "data_type",
+        "experimental_strategy",
         "submitter_id",
-        "project_id"
+        "project_id",
+        "acquisition_type",
+        "exposure_modulation_type",
+        "image_data_modification_method",
+        "image_data_modification_name",
+        "image_data_modified",
+        "imaging_date",
+        "lossy_image_compression",
+        "magnification",
+        "manufacturer",
+        "manufacturer_model_name",
+        "modality",
+        "number_of_instances",
+        "patient_position",
+        "series_description",
+        "series_uid",
+        "stain_type"
       ]
     },
     "dropdowns": {
