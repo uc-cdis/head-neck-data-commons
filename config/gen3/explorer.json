@@ -68,7 +68,7 @@
       "loginForDownload": true,
       "guppyConfig": {
         "dataType": "dataset",
-        "nodeCountTitle": "Datasets",
+        "nodeCountTitle": "Dataset",
         "fileCountField": "data_file_count",
         "fieldMapping": [
           {
@@ -238,7 +238,7 @@
       "loginForDownload": true,
       "guppyConfig": {
         "dataType": "subject",
-        "nodeCountTitle": "Subjects",
+        "nodeCountTitle": "Subject",
         "fileCountField": "data_file_count",
         "fieldMapping": [
           {
@@ -402,7 +402,7 @@
       "loginForDownload": true,
       "guppyConfig": {
         "dataType": "sample",
-        "nodeCountTitle": "Samples",
+        "nodeCountTitle": "Sample",
         "fileCountField": "data_file_count",
         "fieldMapping": [
           {
@@ -557,7 +557,7 @@
       "loginForDownload": true,
       "guppyConfig": {
         "dataType": "data_file",
-        "nodeCountTitle": "Files",
+        "nodeCountTitle": "File",
         "fieldMapping": [
           {
             "field": "project_id",
