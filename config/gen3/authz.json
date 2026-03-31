@@ -1,6 +1,9 @@
 {
   "routes": {
-    "/DataLibrary": {
+    "/Explorer": {
+      "loginRequired": true
+    },
+    "/Query": {
       "loginRequired": true
     },
     "/Workspace": {
