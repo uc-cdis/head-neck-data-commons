@@ -104,9 +104,13 @@
   {
     "tabTitle": "Subjects",
     "charts": {
-      "race": {
+      "experimental_group": {
         "chartType": "fullPie",
-        "title": "Race"
+        "title": "Experimental Group",
+        "label": {
+          "show": true
+        },
+        "showLegendInChart": false
       },
       "Sex_Desc": {
         "chartType": "fullPie",
