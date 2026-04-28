@@ -12,9 +12,9 @@ Gen3 Data Commons using the Gen3 Frontend Framework is a matter of the following
 
 * Add your pages and content
 
-* Deploy via Helm charts or Docker.
+* Deploy via helm charts or Docker.
 
-Changes to the Gen3 Data Commons Application can be pulled from the Common Frontend Repository. You need to configure git to pull from the Common Frontend Repository.
+Changes to the Gen3 Data Commons Application can be pulled from the Common Frontend Repository. You need configure git to pull from the Common Frontend Repository.
 ```bash
 git remote add upstream https://github.com/uc-cdis/commons-frontend-app.git
 ```
